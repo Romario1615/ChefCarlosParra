@@ -1086,39 +1086,17 @@ footer p {
 }
 
 .footer-author {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-top: 1.5rem;
-    padding: 0.75rem 1.5rem;
-    background: var(--glass-bg);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--glass-border);
-    border-radius: 50px;
-    color: var(--text-secondary);
+    display: block;
+    margin-top: 1rem;
+    color: rgba(176, 176, 176, 0.5);
     text-decoration: none;
-    font-size: 0.9rem;
-    transition: var(--transition-smooth);
-}
-
-.footer-author svg {
-    width: 20px;
-    height: 20px;
-    fill: var(--gold-primary);
+    font-size: 0.65rem;
     transition: var(--transition-smooth);
 }
 
 .footer-author:hover {
-    background: rgba(212, 175, 55, 0.1);
-    border-color: var(--gold-primary);
-    color: var(--gold-light);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(212, 175, 55, 0.2);
-}
-
-.footer-author:hover svg {
-    fill: var(--gold-light);
-    transform: scale(1.1);
+    color: var(--gold-primary);
+    text-decoration: underline;
 }
 
 /* ================= Modal ================= */
